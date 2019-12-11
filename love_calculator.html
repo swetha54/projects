@@ -1,0 +1,61 @@
+<html>
+<head><title>Love Calculator</title>
+<style type="text/css">
+body{
+background-image:url("C:/Users/swe/Pictures/love.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+#t1
+{
+margin-top:20%;
+margin-left:10%;
+
+}
+#t2{
+margin-left:10%;
+}
+input[type=submit]
+{
+text-align:center;
+margin-left:22%;
+height:50px;
+width:200px;
+border-radius:5px;
+}
+input[type=text]
+{
+text-align:center;
+height:50px;
+width:200px;
+border-radius:5px;
+}
+h2{
+position: relative;
+top: 30%;
+left:20%;
+font-size:30px;
+font-family:Cursive;
+color:white;
+}
+</style>
+<script>
+function calculate()
+{
+var l=Math.random();
+var result=Math.floor(l*100);
+event.preventDefault(); 
+document.getElementById("myText").innerHTML = result+ "%";
+}
+</script>
+</head>
+<body>
+<h2>  love percentage <span id="myText"></span> </h2>
+<form>
+<input type="text" id="t1" placeholder="Your name" />
+<input type="text" id="t2"  placeholder="Partner name" />
+<br /><br/><br/> <br/><br />
+<input type="submit"  value="calculate" onclick="calculate()">
+</form>
+</body>
+</html>

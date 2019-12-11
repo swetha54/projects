@@ -1,0 +1,24 @@
+<html>
+<script>
+function createchk(name)
+{
+var md=document.getElementById("mydiv");
+var ckbx=document.createElement("input");
+ckbx.setAttribute("type","checkbox");
+ckbx.setAttribute("name",name);
+md.appendChild(ckbx);
+console.log("added successfully");
+
+}
+</script>
+<body>
+<div id="mydiv">
+<form>
+<label>Enter name</label>
+<input type="text" id=name>
+<br>
+<input type="submit" onclick=createchk(name)>
+</form>
+</div>
+</body>
+</html>
