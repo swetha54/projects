@@ -1,0 +1,138 @@
+body{
+	margin:0;
+	text-align:center;
+	
+}
+
+.content{
+background-color:#EAF6F6;
+height:700px;
+width:100%;
+}
+.b{
+	display:block;
+	margin:auto;
+	position:relative;
+	top:20%;
+	
+	
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size:70px;
+	line-height:1;
+	color:#00918e;
+}
+p{
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	color:#00918e;
+}
+
+
+.top{
+	
+	position:absolute;
+	right:20%;
+	top:5%;
+}
+.top img,.middle1 img{
+	height:100px;
+	width:100px;
+	
+}
+.bottom img{
+height:210px;
+	width:200px;	
+}
+.middle1{
+	position:absolute;
+	left:10%;
+	top:40%;
+	
+	
+}
+.bottom{
+	position:absolute;
+	top:50%;
+	left:43%;
+	
+}
+h3{font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:30px;
+	
+}
+h4{
+
+	font-family: 'Crimson Text', serif;
+	font-size:17px;
+	
+}
+h2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:30px;
+	color:#fe346e;
+}
+.h{
+font-family: 'Crimson Text', serif;
+	font-size:20px;
+	width:50%;
+	margin:30px auto 0 auto;
+}
+.skills-row{
+	width:50%;
+	margin:60px auto;
+	text-align:left;
+	line-height:2;
+}
+.code{
+	width:25%;
+	float:left;
+	margin-right:35px;
+	}
+.tunes{
+	width:25%;
+	float:right;
+	margin-left:30px;
+	
+}
+.a{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	color:#00918e;
+	margin-top:40px;
+	line-height:1;
+	color:#00918e;
+}
+hr{
+	border:dotted #297ca0 8px;
+	border-bottom:none;
+	width:5%;
+}
+.testbutton {
+ margin:50px;
+  font-family: georgia;
+  color: #F4F5F0 !important;
+  font-size: 17px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  border: 2px solid #28C7BC;
+  background: #63B8EE;
+  background: linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+  background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+}
+.testbutton:hover {
+  color: #F7F5EB !important;
+  background: #6FD1D1;
+   border: 2px solid #28C7BC;
+}
+.footer-design{
+	background-color:#66BFBF;
+	height:80px;
+}
